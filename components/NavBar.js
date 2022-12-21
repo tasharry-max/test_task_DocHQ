@@ -29,7 +29,7 @@ const Navbar = () => {
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
         ><Menu width={24}/></div>
-       <StyledImage><Image src='/DocHQ_logo.jpg' width={170} height={46} alt='Logo' priority/></StyledImage>
+       <StyledImage><Image src='/doc-logo.jpg' alt='Logo'/></StyledImage>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MenuList.map((menu, idx) => (
             <div
