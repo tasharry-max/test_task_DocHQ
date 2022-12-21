@@ -1,0 +1,25 @@
+{
+  "name": "test_task_dochq",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.0.7",
+    "babel-preset-next": "^1.4.0",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "next": "13.0.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6",
+    "styled-icons": "^10.46.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7"
+  }
+}
