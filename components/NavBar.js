@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MobileNavItem from "./MobileNavItem";
 import Image from "next/image";
+import logo from "../public/doc-logo.jpg";
 import styled from "styled-components";
 import {Menu} from '@styled-icons/entypo/Menu'
 
@@ -14,8 +15,6 @@ const StyledImage = styled.div`
     display: flex;
     justify-content: center;
     flex-basis: 100%;
-    width: 170px;
-    height: 46px;
 `
 
 const Navbar = () => {
@@ -29,7 +28,7 @@ const Navbar = () => {
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
         ><Menu width={24}/></div>
-       <StyledImage><Image src='/doc-logo.jpg' alt='Logo'/></StyledImage>
+       <StyledImage><Image src={logo} width={170} height={46} alt="logo" /></StyledImage>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MenuList.map((menu, idx) => (
             <div
