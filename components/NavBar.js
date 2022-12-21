@@ -14,6 +14,8 @@ const StyledImage = styled.div`
     display: flex;
     justify-content: center;
     flex-basis: 100%;
+    width: 170px;
+    height: 46px;
 `
 
 const Navbar = () => {
